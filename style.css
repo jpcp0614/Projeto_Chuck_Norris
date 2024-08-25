@@ -1,0 +1,87 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: rgb(255, 251, 249);
+  color: #522302;
+  font-size: 25px;
+  text-align: center;
+}
+
+main {
+  min-height: 80vh;
+  margin: 0 50px;
+}
+
+#imagem {
+  height: 150px;
+  animation: none;
+  margin: 20px 0 20px 40px;
+}
+
+#imagem:hover {
+  animation: tremer 0.1s infinite alternate;
+}
+
+@keyframes tremer {
+  from {
+    transform: translateX(0)
+  }
+  to {
+    transform: translateX(5px)
+  }
+}
+
+#cabecalho {
+  border-bottom: 5px solid #cf4404;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+h1 {
+  color: #8b2709;
+  font-size: 50px;
+}
+
+#selecao {
+  background-color: rgb(233,227,208);
+  border: none;
+  border-radius: 5px;
+  color:#522302;
+  font-size: 20px;
+  margin: 0 20px;
+  padding: 5px;
+}
+
+#btn {
+  background-color: rgb(236, 205, 179);
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  height: 35px;
+  margin: 10px;
+  padding: 0 20px;
+  transition: 0.3s;
+}
+
+#btn:hover {
+  background-color: #8b2709;
+  color: rgb(233,227,208);
+}
+
+#fato {
+  color: #cf4404;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px 100px;
+}
+
+footer {
+  border-top: 3px solid #8b2709;
+  font-weight: 600;
+  font-size: 18px;
+  margin: auto 100px;
+}
